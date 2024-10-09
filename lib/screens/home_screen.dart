@@ -32,7 +32,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => const MessageScreen()),
+                    builder: (context) => const MessageScreen(),
+                  ),
                 );
               },
               child: const Text('Time to Wrap it Up!'),
